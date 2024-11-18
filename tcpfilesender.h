@@ -25,6 +25,10 @@ private:
     QPushButton      *openButton;
     QDialogButtonBox *buttonBox;
     QTcpSocket       tcpClient;
+    QLabel *ipLabel;
+    QLabel *portLabel;
+    QLineEdit *iplineEdit;
+    QLineEdit *portlineEdit;
 
     qint64           totalBytes;
     qint64           bytesWritten;
